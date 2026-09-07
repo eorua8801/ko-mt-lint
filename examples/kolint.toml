@@ -1,0 +1,42 @@
+# Example configuration. Drop a file named kolint.toml at your project root;
+# kolint finds it by walking up from the working directory.
+
+[kolint]
+# Nested JSON: each record lives under a top-level list item's "strings" array.
+records = "[].strings[]"
+
+# KO004 is opt-in because 이입니다 is correct after an 이-final noun.
+# Turn it on when your pipeline rewrites sentence endings, and read the diff.
+extend-select = ["KO004"]
+
+# Fail the build on errors only; warnings and info stay advisory.
+exit-level = "error"
+
+[kolint.KO006]
+# Exact nouns from your glossary. Particle agreement after these is decidable
+# with no ambiguity, so KO006 has no false positives -- unlike KO007.
+terms = ["성직자", "코볼드", "행정관", "파수꾼", "은빛 탑"]
+
+[kolint.KO302.speakers]
+# A speech-level contract per speaker. Matched against the segment's group,
+# so "Archivist" also covers groups named NPC_Archivist, EP_Archivist, ...
+#   formal = 합니다체   polite = 해요체   plain = 다체   casual = 반말
+Archivist  = "formal"
+Envoy      = "polite"
+Scout      = "casual"
+Chronicler = "plain"
+
+[kolint.KO301]
+min_segments = 5     # groups smaller than this carry too little evidence
+dominance = 0.6      # only report when one level clearly dominates
+
+[kolint.KO102]
+allow_han = false    # set true if the project writes 한자 병기
+
+[kolint.KO103]
+skip_identifiers = true          # SPELL Comprehend_Languages- is code, not prose
+ignore_pattern = '^\[NOLOC\]'  # literal string: no escaping needed for regexes
+
+[kolint.KO003]
+# Project-specific descriptive verbs the built-in list does not know.
+extra_hada = ["영롱", "고즈넉"]
