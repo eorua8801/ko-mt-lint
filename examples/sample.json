@@ -1,0 +1,52 @@
+[
+  {
+    "speaker": "Narrator",
+    "strings": [
+      { "source": "The pale man sits hunched over a stack of forms.", "target": "창백한 남자가 서류 더미 위로 몸을 굽히고 앉아 있다." },
+      { "source": "The lamp flickers once and steadies.", "target": "등불이 한 번 흔들리다 잦아든다." },
+      { "source": "Rain taps against the shutters.", "target": "빗방울이 덧문을 두드린다." },
+      { "source": "Somewhere below, a door closes.", "target": "아래 어딘가에서 문이 닫힌다." },
+      { "source": "You stand before the door.", "target": "당신은 문 앞에 서 있다." },
+      { "source": "He shuddered.", "target": "그는 战栗했는다." },
+      { "source": "Not <i>a</i> river. <i>The</i> river.", "target": "그 강이 아니에요. 그 강이에요." },
+      { "source": "You got {item}.", "target": "{item}을 얻었다." },
+      { "source": "It was inevitable.", "target": "그것은 피할 수 없는 일이었는다." },
+      { "source": "The silence is heavy.", "target": "침묵이 무겁다. /think" }
+    ]
+  },
+  {
+    "speaker": "Archivist",
+    "strings": [
+      { "source": "\"Good evening. Please, sit.\"", "target": "\"안녕하십니까. 앉으십시오.\"" },
+      { "source": "\"I have been expecting you.\"", "target": "\"기다리고 있었습니다.\"" },
+      { "source": "\"The forms are nearly complete.\"", "target": "\"서류는 거의 완성되었습니다.\"" },
+      { "source": "\"It will not take long.\"", "target": "\"오래 걸리지 않습니다.\"" },
+      { "source": "\"Sign here, if you would.\"", "target": "\"여기에 서명해 주십시오.\"" },
+      { "source": "\"That is all.\"", "target": "\"그게 다야.\"" }
+    ]
+  },
+  {
+    "speaker": "Scout",
+    "strings": [
+      { "source": "\"Hey! Over here!\"", "target": "\"야! 여기야!\"" },
+      { "source": "\"You're slow, you know that?\"", "target": "\"너 느리다는 거 알아?\"" },
+      { "source": "\"Come on, let's go.\"", "target": "\"자, 가자.\"" },
+      { "source": "\"I found something good.\"", "target": "\"좋은 거 찾았어.\"" },
+      { "source": "\"Don't touch that.\"", "target": "\"그거 만지지 마.\"" },
+      { "source": "\"I would advise against it.\"", "target": "\"권해 드리지 않습니다.\"" }
+    ]
+  },
+  {
+    "speaker": "System",
+    "strings": [
+      { "source": "Translation complete.", "target": "번역: 번역이 완료되었다." },
+      { "source": "Loading...", "target": "불러오는 중..." },
+      { "source": "SPELL Comprehend_Languages-", "target": "SPELL Comprehend_Languages-" },
+      { "source": "This weather is nice.", "target": "이 날씨는 좋는다." },
+      { "source": "The document is written in old script.", "target": "그 문서는 옛 문자로 쓰여져 있다." },
+      { "source": "Press any key to continue.", "target": "계속하려면 아무 키나 누르세요 ." },
+      { "source": "NOOOOOOOO!", "target": "아니이이이이이이이이!" },
+      { "source": "An error occurred while saving the file.", "target": "An error occurred while saving the file." }
+    ]
+  }
+]
