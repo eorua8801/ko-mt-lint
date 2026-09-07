@@ -86,7 +86,7 @@ def test_meta_commentary(bad, clean):
 
 
 def test_meta_commentary_does_not_eat_real_text():
-    assert "KO104" not in codes("번역가는 지쳤 있었다.")
+    assert "KO104" not in codes("번역가는 지쳌 있었다.")
 
 
 # --- KO105 repetition --------------------------------------------------------
@@ -96,7 +96,7 @@ def test_repetition_tokens():
 
 
 def test_repetition_chars():
-    assert "KO105" in codes("으아아아아아아아악")
+    assert "KO105" in codes("으아아아아아아악")
 
 
 def test_repetition_leaves_normal_text():
