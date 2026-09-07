@@ -102,7 +102,7 @@ def test_past_neunda(bad, good):
 
 
 def test_past_neunda_leaves_valid_present_alone():
-    for text in ("그는 밥을 먹는다.", "물이 흘른다.", "그가 문을 연다."):
+    for text in ("그는 밥을 먹는다.", "물이 흐른다.", "그가 문을 연다."):
         assert "KO002" not in codes(text), text
 
 
