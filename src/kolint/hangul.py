@@ -31,7 +31,7 @@ JONG_SSANG_SIOT = 20  # ㅆ -- marks past tense stems (했, 갔, 였 ...)
 
 
 def is_syllable(ch: str) -> bool:
-    """True if *ch* is a precomposed Hangul syllable (가-힙)."""
+    """True if *ch* is a precomposed Hangul syllable (가-힣)."""
     return len(ch) == 1 and SBASE <= ord(ch) <= SLAST
 
 
