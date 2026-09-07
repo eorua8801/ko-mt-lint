@@ -49,7 +49,7 @@ loop, and — the one that really embarrasses a shipped build — another
 language's script leaking in. From a corpus of shipped game dialogue:
 
 > `"支线任务이 너무 많아..." 동료가 중얼거린다.`
-> `그만해. фаши즘은 객관적으로 나쁜고...`
+> `그만해. фаши즘은 객관적으로 나쁘고...`
 > `"리كس. 누군가가 할머니를 죽이려고 해."`
 
 Comparing scripts against the source makes this exact.
